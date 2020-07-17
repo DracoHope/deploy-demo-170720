@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background Git Demo 130720</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+	<h1>Ming Backgroung Generator Change to Background Color at 17072020</h1>
+
+	<!-- Color Picker : using  <input type="color"> where the "value" is the default color value -->
+	<input class="color1" type="color" name="color1" value="#00ff00">
+	<!-- THe above code id modify to this below with added oninput= "setGradient()" this is actuall same as a "input" Event in the Javascript so similarly when the "input" event is trigger, the setGradient() in the Javascript will be executed  -->
+	<!-- This HTML in-line way of doing is not recommended because the color picker or any object such as button ... etc in the WebPage can only have one "oninput" only if is define here. By using the Javascript, we can assign many event to this or button ... etc by the "addEventListener" -->
+<!-- 	<input oninput= "setGradient()" class="color1" type="color" name="color1" value="#00ff00"> -->
+
+	<!-- Need to Color Picker because from one color to the other color for gradient color background -->
+	<input class="color2" type="color" name="color2" value="#ff0000">
+		<!-- THe above code id modify to this below with added oninput= "setGradient()" this is actuall same as a "input" Event in the Javascript so similarly when the "input" event is trigger, the setGradient() in the Javascript will be executed  -->
+<!-- 	<input oninput= "setGradient()" class="color2" type="color" name="color2" value="#ff0000"> -->
+
+	<h2>Ming Current CSS Background</h2>
+	<h3></h3>
+	<script type="text/javascript" src="script.js"></script> 
+</body>
+</html>

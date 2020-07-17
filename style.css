@@ -1,0 +1,33 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+
+    /* This is the property for the liner gradient background  
+    background: linear-gradient(to right, red , yellow);
+    where (to right, red , yellow) ---> first parameter "to right" mean from left to right hand side
+                                   ---> second parameter "red" mean gradient color from "Red" 
+                                   ---> third parameter "yellow" mean gradient color till yellow*/
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
